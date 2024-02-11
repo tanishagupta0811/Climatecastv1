@@ -1,0 +1,74 @@
+/* css - Khusbu Gupta */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.center-container {
+  flex: 1;
+}
+
+
+
+.header{
+  text-align:center;
+  background:#f62ee1;;
+  color:white;
+  padding:20px;
+  font-size:23px;
+  margin-bottom: 30px
+}
+
+.footer{
+  text-align:center;
+  background:grey;;
+  color:white;
+  padding:10px;
+  font-size:20px;
+  margin-top: auto;
+}
+
+
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  height: 70vh; 
+}
+
+.state-detail-component{
+  display:flex;
+  flex-direction:column;
+}
+
+
+
+
+@media (min-width:600px){
+  .chart{
+    width:500px;
+    height:350px;
+    margin-left: 40px
+  }
+  .table-div{
+    /* width:80%; */
+    margin: 40px
+  }
+  
+  .chart1{
+    width:500px;
+    margin-left: 40px
+  }
+}
+
+@media (min-width:900px){
+  .state-detail-component{
+    display:flex;
+    flex-direction:row;
+  }
+}
+
+
+
