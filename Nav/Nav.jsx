@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
  import "./Nav.css";
-import Button from "@material-ui/core/Button";
+// import Button from "@material-ui/core/Button";
 
 const Nav = () => {
   return (
@@ -25,15 +25,15 @@ const Nav = () => {
                             justifyContent: "space-around"
                         }}
                     >
-                        <a className="underLine2  ">
-                            <Button variant="text" color="default" href="/">
+                        <a className="underLine2  "href="/">
+                            <button>
                                 Assignment-1 
-                            </Button>
+                            </button>
                         </a>
                         <a className="underLine2  " href="/state">
-                            <Button variant="text" color="default">
+                            <button>
                             Assignment-2 
-                            </Button>
+                            </button>
                         </a>
 
                     </div>
