@@ -5,7 +5,6 @@ import TreeMapChart from '../src/stateWiseSummary/components/statesummary';
 import search from './assets/icons/search.svg';
 import { useStateContext } from './Context';
 import { BackgroundLayout, WeatherCard, MiniCard } from './Components';
-import NavBar from "../Nav/Nav"
 import Home from './Home';
 
 function App() {

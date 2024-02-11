@@ -4,8 +4,7 @@ import { Treemap, Tooltip, ResponsiveContainer } from 'recharts';
 import './statewisesummary.css'
 import StateDetailComponent from './StateDetailComponent'; // Import the new component
 import StateDetailsTable from './StateDetailsTable';
-import Nav from '../../../Nav/Nav';
-
+import Nav from "../Nav/Nav"
 
 
   
